@@ -48,7 +48,7 @@
 <tr style="height: 21px;">
 <td width="169" style="width: 49.944%; height: 21px;"><strong style="color: #6fbbd3;">Booked Equipment</strong></td>
 <td style="color: #6fbbd3;" width:="" 50="" 056="" height:="" 21px="" width="268">
-    (*If("(*ContainerMode*)"=="LCL", "LCL", "(*ContainerCount*)x(*SubString("(*QuotedBookingContainers.JC_ContainerCode*)", 0, 4)*)")*)
+    (*If("(*ContainerMode*)"=="LCL", "LCL", "(*ContainerCount*)x(*SubString("(*QuotedBookingContainers[1].Container.RC_Code*)", 0, 4)*)")*)
 </td>
 </tr>
 <tr style="height: 21px;">
